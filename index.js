@@ -1,4 +1,4 @@
-const user =["sumitgandhi", "yashgandhi", "priyagandhi", "shubham","devanshusachdeva", "gagansaini","kamal","sudhir","chirag","gunjan"];
+const user =["sumitgandhi", "yashgandhi", "priyagandhi", "shubham","devanshusachdeva", "gagansaini","kamal","sudhir","chirag","gunjan", "yash"];
 let isfound= false;
 
 
