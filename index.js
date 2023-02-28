@@ -12,6 +12,8 @@ function notfound() {
         }
         if (isfound){
             document.getElementById("Account").innerHTML ="Account Found";
+            document.getElementById("Account").style.color = 'green';
+            
         }
         else{
             document.getElementById("Account").innerHTML ="Account not Found";
@@ -19,6 +21,7 @@ function notfound() {
         let password = document.forms['form']['pass'].value;
         if(password.length>6){
             document.getElementById("key").innerHTML ="correct password";
+            document.getElementById("key").style.color = 'green';
         }
         else{
             document.getElementById("key").innerHTML ="Incorrect password";
